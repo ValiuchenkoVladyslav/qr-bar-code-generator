@@ -17,7 +17,11 @@ export function App() {
         <Heading>QR & BAR code generator</Heading>
 
         <Tooltip content="Project repo">
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/ValiuchenkoVladyslav/qr-bar-code-generator"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={GitHubLogo} alt="Project repo" />
           </a>
         </Tooltip>
