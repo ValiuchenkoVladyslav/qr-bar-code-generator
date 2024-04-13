@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "QR & Bar code generator",
+  "version": "2.0.0",
+  "description": "Browser extension for QR & Bar Code generation",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  }
+}

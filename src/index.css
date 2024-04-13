@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+button:hover:not(:disabled) {
+  cursor: pointer;
+}
