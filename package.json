@@ -9,7 +9,7 @@
     "lint:check": "eslint ./src/**/*.{ts,tsx} vite.config.ts",
     "lint:fix": "eslint ./src/**/*.{ts,tsx} vite.config.ts --fix",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@radix-ui/themes": "^3.0.2",
