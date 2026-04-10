@@ -1,0 +1,23 @@
+{
+   "files.exclude": {
+      "**/node_modules/": true,
+      "**/dist/": true
+   },
+
+   "json.schemas": [
+      {
+         "fileMatch": ["bun.lock"],
+         "schema": {
+            "allowTrailingCommas": true
+         }
+      }
+   ],
+
+   "json.schemaDownload.trustedDomains": {
+      "https://biomejs.dev/": true
+   },
+
+   // this shit must be default
+   "js/ts.tsdk.promptToUseWorkspaceVersion": true,
+   "js/ts.tsdk.path": "node_modules/typescript/lib"
+}
