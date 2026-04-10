@@ -2,6 +2,7 @@ import QRCode from "qrcode";
 import { useRef } from "react";
 import { CodeInput } from "~/component/code-input";
 import { CopyButton } from "~/component/copy-button";
+import { PrintButton } from "~/component/print-button";
 import { SaveButton } from "~/component/save-button";
 import { TabContent } from "~/component/tab-content";
 
@@ -25,6 +26,8 @@ export function QRCodeTab({ optionName }: { optionName: string }) {
             <SaveButton canvas={canvasRef} filename="qrcode.png" />
 
             <CopyButton canvas={canvasRef} />
+
+            <PrintButton canvas={canvasRef} />
          </div>
       </TabContent>
    );
