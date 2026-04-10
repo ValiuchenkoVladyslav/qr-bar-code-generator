@@ -3,6 +3,7 @@
 - Generate Bar Code
 - Save generated code as PNG
 - Copy generated code image
+- Print generated code
 
 ### [Install for Firefox](https://addons.mozilla.org/en-US/firefox/addon/qr-bar-code-generator/)
 _Extension not published in Chrome, but dist can still be loaded at [chrome://extensions/](chrome://extensions/) via **"Load unpacked"** button._
