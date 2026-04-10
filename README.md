@@ -8,8 +8,6 @@
 _Extension not published in Chrome, but dist can still be loaded at [chrome://extensions/](chrome://extensions/) via **"Load unpacked"** button._
 
 ## For developers
-> Bun 1.1.0 runtime is required
-
 First you need to install project dependencies:
 ```sh
 bun install
